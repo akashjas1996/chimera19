@@ -84,7 +84,7 @@ if(isset($_POST['login'])){
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css">
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-		<title> Login| Kritarth.org</title>
+		<title> Login| Chimera</title>
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
 		<link href="../fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
