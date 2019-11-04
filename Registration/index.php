@@ -20,7 +20,6 @@ function redirect($url)
         echo '</noscript>'; exit;
     }
 }
-redirect("../soldout");
 if(isset($_POST['register'])){
 	$name = $_POST['name'];
 	$email =  $_POST['email'];
@@ -177,7 +176,7 @@ echo mysqli_error($link);
 									<!-- <input name="" type="text" placeholder="Your name"..> -->
 
 									<!-- <input type="text" placeholder="Website..."> -->
-									<input name="register" type="submit" value="Submit">
+									<input style="background-color: #880691" name="register" type="submit" value="Submit">
 								</form>
 							</div>
 
@@ -225,8 +224,8 @@ echo mysqli_error($link);
 				document.getElementById('fee_store').value="200";}
 				else if(a.value==='Others'){
 				document.getElementById('kiit_roll').style.display="none";
-				document.getElementById('fee').value="250";
-				document.getElementById('fee_store').value="250";
+				document.getElementById('fee').value="200";
+				document.getElementById('fee_store').value="200";
 				document.getElementById('other_inst').style.display="block";
 			}
 

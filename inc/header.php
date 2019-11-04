@@ -7,10 +7,10 @@
 	</style>
 </head>
 
-<header class="site-header">
-				<div class="container" style="background-color: gray" >
+<header class="site-header" style="background-color: #c89d46">
+				<div class="container" style="background-color: #c89d46">
 					<a href="../" id="branding" >
-						<img width="220px" src="../images/kritarth-white.png" alt="Site Title">
+						<img width="120px" src="../images/chimera_white.png" alt="Site Title">
 						<!-- <small class="site-description">Slogan goes here</small> -->
 					</a> <!-- #branding -->
 					
@@ -20,7 +20,7 @@
 							<!-- current-menu-item -->
 							<li class="menu-item"><a href="../">Home</a></li>
 							<li class="menu-item"><a href="../Gallery">Gallery</a></li>
-							<li class="menu-item"><a href="../Events">Events</a></li>
+							<!-- <li class="menu-item"><a href="../Events">Events</a></li> -->
 							<li class="menu-item"><a href="../Contact">Contact</a></li>
 							<?php
 							if(isset($_SESSION['k_id'])){

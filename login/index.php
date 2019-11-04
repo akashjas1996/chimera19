@@ -116,7 +116,7 @@ if(isset($_POST['login'])){
 								<form action="" class="contact-form" method="POST">
 									<input name="email" type="text" placeholder="Email Address">
 									<input required="" name="password" type="password" placeholder="Password"..>
-									<input name="login" type="submit" value="Submit">
+									<input style="background-color: #880691" name="login" type="submit" value="Submit">
 								</form>
 							</div>
 

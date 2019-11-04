@@ -1,11 +1,11 @@
-<footer class="site-footer">
-				<div class="container">
-					<img width="300px" src="../images/kritarth-white.png" alt="Kritarth 5.0">
+<footer class="site-footer" style="background-color: #c89d46">
+				<div class="container" style="background-color: #c89d46">
+					<img width="150px" src="../images/chimera_white.png" alt="CHIMERA LOGO">
 					<address>
-						<p>.<br><a href="tel:354543543"></a> <br> <a href="mailto:info@bandname.com">info.kritarth@gmail.com</a></p> 
+						<p style="color: white"><br><a href="tel:354543543"></a> <br> <a href="mailto:info@bandname.com">chimerakiit@gmail.com</a></p> 
 					</address> 
 					
-					<form method="GET" action="https://kritarth.org/Registration/index.php" class="newsletter-form" >
+					<form method="GET" action="https://chimera.org.in/Registration/index.php" class="newsletter-form" >
 						<input type="email" name="reg_mail" placeholder="Enter your email to register now">
 						<input type="submit" class="button cut-corner" value="Register">
 					</form>
@@ -15,6 +15,6 @@
 						<!-- <a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-pinterest"></i></a> -->
 					</div>
-					<p class="copy">Copyright 2019 Kritarth 5.0 All right reserved</p>
+					<p class="copy">Copyright 2019 Chimera |  All right reserved</p>
 				</div>
-			</footer>
+</footer>

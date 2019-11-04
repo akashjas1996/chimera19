@@ -46,14 +46,21 @@
 							</div> -->
 							<div class="filterable-items">
 
+								<?php 
 
-								<div class="filterable-item concert">
-									<a href="../images/p1.jpg"><figure><img src="../images/p1.jpg" alt="gallery 1"></figure></a>
-								</div>
+								$count_of_pics_max = 11;
+								$count_of_pics = 1;
+								while($count_of_pics<=$count_of_pics_max){
 
-								<div class="filterable-item concert">
-									<a href="../images/p2.jpg"><figure><img src="../images/p2.jpg" alt="gallery 1"></figure></a>
-								</div>
+									echo '<div style="width:270px; height:270px" class="filterable-item concert">
+									<a href="../images/p'.$count_of_pics.'.jpg"><figure><img src="../images/p'.$count_of_pics.'.jpg" alt="gallery 1"></figure></a>
+								</div>';
+
+								$count_of_pics=$count_of_pics+1;
+
+								}
+
+								?>
 
 
 							</div>

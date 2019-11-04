@@ -56,11 +56,11 @@
                               <!--  <span>8787585831,8249242194</span>  -->
                                <div class="row">
                                	<div  class="col-lg-6">
-                               		<h3 style="line-height: 0">Pradipta Som</h3>
-                               		<a href="https://api.whatsapp.com/send?phone=918787585831&text=Hello, Got your number from kritarth Webpage wanted your help in ....." > <img style="width: 35px; margin-top: 2px " src="whatsapp.png"> </a>
+                               		<h3 style="line-height: 0">Merly Thomas</h3>
+                               		<a href="https://api.whatsapp.com/send?phone=919899355746&text=Hello, Got your number from chimera Webpage wanted your help in ....." > <img style="width: 35px; margin-top: 2px " src="whatsapp.png"> </a>
                                			&nbsp;
-                               		<a style="line-height: 0; color: grey; text-decoration: none" href="tel:+918787585831">
-                               			<i class="fa fa-phone"></i> +91 - 8787585831
+                               		<a style="line-height: 0; color: grey; text-decoration: none" href="tel:+919899355746">
+                               			<i class="fa fa-phone"></i> +91 - 9899355746
 
                                		</a>
 
@@ -69,7 +69,7 @@
 
                                </div>
                                <br>
-                               <div class="row">
+                               <!-- <div class="row">
                                	<div  class="col-lg-6">
                                		<h3 style="line-height: 0">Navneet Pandey</h3>
                                		<a style="line-height: 0; color: grey; text-decoration: none" href="tel:+918249242194">
@@ -81,12 +81,12 @@
                                			 
                                		</a>
                                	</div>
-                               </div>
+                               </div> -->
 
 
                                 </h2>
                                 <br>
-                                <h2><i class="fa fa-2x fa-envelope"></i>&nbsp;&nbsp;<span>info.kritarth@gmail.com</span></h2><br>
+                                <h2><i class="fa fa-2x fa-envelope"></i>&nbsp;&nbsp;<span>chimerakiit@gmail.com</span></h2><br>
                                 <h2><i class="fa fa-2x fa-map-marker"></i>&nbsp;&nbsp;&nbsp;<span>KIIT Student Activity Centre</span>
                                 &nbsp;&nbsp;&nbsp;<p>Campus 13, Bhubaneshwar, Odisha, India</p>
                                 </h2>
