@@ -27,8 +27,6 @@ include 'inc/dbconnection.php';
  {
      $email=$_REQUEST['email'];
      $hash = md5(rand(0,1000) );
-     echo $email;
-     echo $hash;
      $query=mysqli_query($link,"UPDATE khata SET hash='$hash' WHERE email='$email';");
      $selQuery="select * from khata where email='$email';" ;
      $res=@mysqli_query($link,$selQuery);
@@ -162,19 +160,19 @@ EOF;
      if($mail->send())
       {
           
-           redirect("http://kritarth.org/login");
+           redirect("http://chimera.org.in/login");
            exit;
       }
       else
       {
            
-           redirect("http://kritarth.org/login");
+           redirect("http://chimera.org.in/login");
       }
  }
  else 
  {   
     
-     redirect("http://kritarth.org/login");
+     redirect("http://chimera.org.in/login");
  }
 ob_end_flush();
 ?>
