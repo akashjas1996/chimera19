@@ -81,14 +81,14 @@
 							<ul class="slides">
 								<li>
 									<blockquote>
-										<p>Established on our honourable founder sir's philosophy of "Art of Giving", Kritarth is a one-of-a-kind  extravaganza of KIIT University, this year, being the torchbearer of the "Million Dollar Smile". Moreover, it provides a platform for a profusion of talents of huge diversity.</p>
+										<p>CHIMERA 2019, the one-of-a-kind gala of "Kimaya- The Medical Society" of KIIT University. Keeping in mind the theme of this year, Alcheringa Medicus: The Birth of Medicine as quoted by Carl Sagan - "You have to know the past, in order to understand the present", CHIMERA 2K19 aims to answer the burning questions regarding the origin of medicine, which we the humans have given to ourselves: The Gift of Medicine. Something incredible is waiting to be known on 16th-17th November.</p>
 										<!-- <cite>John Smith</cite> -->
 										<!-- <span>Corporation CEO, books author</span> -->
 									</blockquote>
 								</li>
 								<li>
 									<blockquote>
-										<p>Established on our honourable founder sir's philosophy of "Art of Giving", Kritarth is a one-of-a-kind  extravaganza of KIIT University, this year, being the torchbearer of the "Million Dollar Smile". Moreover, it provides a platform for a profusion of talents of huge diversity.</p>
+										<p>CHIMERA 2019, the one-of-a-kind gala of "Kimaya- The Medical Society" of KIIT University. Keeping in mind the theme of this year, Alcheringa Medicus: The Birth of Medicine as quoted by Carl Sagan - "You have to know the past, in order to understand the present", CHIMERA 2K19 aims to answer the burning questions regarding the origin of medicine, which we the humans have given to ourselves: The Gift of Medicine. Something incredible is waiting to be known on 16th-17th November.</p>
 										<!--cite>John Smith</cite-->
 										<!-- <span>Corporation CEO, books author</span> -->
 									</blockquote>
