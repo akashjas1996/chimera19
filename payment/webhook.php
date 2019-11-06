@@ -40,6 +40,8 @@ if($mac_provided == $mac_calculated){
         $date_time = date('Y-m-d h:i:sa');
         $query_update_payment_status = "UPDATE khata SET payment_status=1, transaction_id='$payment_id', payment_date_time='$date_time' WHERE email='$buyer'";
         $res_update_payment_status = mysqli_query($link, $query_update_payment_status);
+
+        echo mysqli_error($link);
     }
     else{
         // Payment was unsuccessful, mark it as failed in your database
