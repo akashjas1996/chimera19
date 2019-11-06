@@ -424,7 +424,7 @@ if(isset($_POST['participation_removal_pressed'])){
 
 												// echo '<img style="width:10%" src="../images/soldout.png">';
 
-												echo "Payment will be started soon. Stay Tuned."
+												echo "Payment will be started soon. Stay Tuned.";
 											}
 											
 										}
