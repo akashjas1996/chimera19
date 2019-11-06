@@ -87,7 +87,7 @@ $curl = curl_init();
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://control.msg91.com/api/sendotp.php?template=hello&otp=".$otp."&otp_length=4&otp_expiry=10&sender=KRTRTH&message=".$otp." is the mobile Verification code for KRITARTH 5.0.&mobile=".$mbl."&authkey=296366AFcEP9oki5d8fad56",
+  CURLOPT_URL => "https://control.msg91.com/api/sendotp.php?template=hello&otp=".$otp."&otp_length=4&otp_expiry=10&sender=CHMRA&message=".$otp." is the mobile Verification code for Chimera. &mobile=".$mbl."&authkey=296366AFcEP9oki5d8fad56",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -145,7 +145,7 @@ if(isset($_POST['participation_pressed'])){
 	$evnt =  $_POST['req_event'];
 	$kid =  $_POST['k_id'];
 	if($kid!=$_SESSION['k_id']){
-		redirect('https://kritarth.org/error.php');
+		redirect('https://chimera.org.in/error.php');
 	}
 	$event_query = "SELECT * FROM pratispradha_chunao WHERE event_id='$evnt' AND kritarth_id = '$kid'";
 	$res_event = mysqli_query($link, $event_query);
@@ -346,7 +346,7 @@ if(isset($_POST['participation_removal_pressed'])){
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css">
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-		<title> Participant| Kritarth.org</title>
+		<title> Participant| CHIMERA</title>
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
 		<link href="../fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -422,7 +422,9 @@ if(isset($_POST['participation_removal_pressed'])){
 											// </a>
 											// ';
 
-												echo '<img style="width:10%" src="../images/soldout.png">';
+												// echo '<img style="width:10%" src="../images/soldout.png">';
+
+												echo "Payment will be started soon. Stay Tuned."
 											}
 											
 										}
