@@ -45,7 +45,7 @@ curl_close($ch);
 <div class="container" style="background: white;">
 	<div class="col s12 m2 z-depth-5 center-align" style="margin-top: 15%;padding: 10px; ">
 	<p><b><h4>Hey, <?php echo $client_name.' ' ?> You have successfully completed your payment!</h4></b></p>
-	<p><h5><b>KRITARTH ID:</b> <?php echo $ch_id;?></h5></p>
+	<p><h5><b>Chimera ID:</b> <?php echo $ch_id;?></h5></p>
 	<p><h5><b>Payment ID:</b> <?php echo $_GET['payment_id'];?></h5></p>
 	</div>
 </div>
@@ -53,7 +53,7 @@ curl_close($ch);
 <div class="container">
 	<center>
 		<div class="row">
-			<a href="https://kritarth.org/participant"> Click Here </a>
+			<a href="https://chimera.org.in/participant"> Click Here </a>
 		</div>
 	</center>
 </div>
