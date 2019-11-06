@@ -19,7 +19,7 @@ else{
 // You can get the 'salt' from Instamojo's developers page(make sure to log in first): https://www.instamojo.com/developers
 // Pass the 'salt' without the <>.
 //salt= 29ac91de833b49f9ab7a0bde653ac337;
-$mac_calculated = hash_hmac("sha1", implode("|", $data), "29ac91de833b49f9ab7a0bde653ac337");
+$mac_calculated = hash_hmac("sha1", implode("|", $data), "588cf2c8de6845188eb43173d238c670");
 if(isset($_POST['buyer'])){
     echo $_POST['buyer'];
     echo $_POST['payment_id'];

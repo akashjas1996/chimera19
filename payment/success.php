@@ -53,7 +53,7 @@ curl_close($ch);
 <div class="container">
 	<center>
 		<div class="row">
-			<a href="https://chimera.org.in/participant"> Click Here </a>
+			<a href="http://chimera.org.in/participant"> Click Here </a>
 		</div>
 	</center>
 </div>
