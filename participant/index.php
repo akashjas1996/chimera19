@@ -387,7 +387,7 @@ if(isset($_POST['participation_removal_pressed'])){
 
 
 						</h2>
-						<p> Your Kritarth ID is : <?php echo $_SESSION['k_id'] ?> </p>
+						<p> Your Chimera ID is : <?php echo $_SESSION['k_id'] ?> </p>
 						<?php 
 						$kid = $_SESSION['k_id'];
 						$query_mobile_change = "SELECT contact FROM khata WHERE kritarth_id='$kid'";
@@ -402,7 +402,7 @@ if(isset($_POST['participation_removal_pressed'])){
 						 </form>';
 						}
 						 ?>
-						<p> Note that FIRST YEAR B.TECH students won't be allowed for the event and star night. </p>
+						<!-- <p> Note that FIRST YEAR B.TECH students won't be allowed for the event and star night. </p> -->
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-12">
