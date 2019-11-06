@@ -21,4 +21,4 @@ function redirect($url)
 
 session_start();
 session_destroy();
-redirect('http://kritarth.org');
+redirect('http://chimera.org.in');
