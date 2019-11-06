@@ -26,16 +26,16 @@ curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:a91b25dc18422099c1266d3b0a496f4e",
-                  "X-Auth-Token:8f527f926a7091bd509fae341af24e55"));
+            array("X-Api-Key:95f8aaec011f218da370a3cc478b1954",
+                  "X-Auth-Token:a6dc9e938dbd556dfd35cee2cfd7c9d5"));
 
 if(isset($_SESSION['k_id'])){
     $kid = $_SESSION['k_id'];
 $query_getinfo = "SELECT * FROM `khata` WHERE kritarth_id = '$kid'";
 $result_getinfo = mysqli_query($link, $query_getinfo);
 $row_getInfo = mysqli_fetch_assoc($result_getinfo);
-$mac = '29ac91de833b49f9ab7a0bde653ac337';
-$salt = '29ac91de833b49f9ab7a0bde653ac337';
+$mac = '588cf2c8de6845188eb43173d238c670';
+$salt = '588cf2c8de6845188eb43173d238c670';
 $id = $kid;
 $name = $row_getInfo['name'];
 $email = $row_getInfo['email'];
@@ -45,14 +45,14 @@ $amt = $row_getInfo['amt'];
 //     redirect("https://kritarth.org/payment/payment_problem.php");
 // }
 $payload = Array(
-    'purpose' => 'Kritarth19-'.$kid,
+    'purpose' => 'Chimera19-'.$kid,
     'amount' => $amt,
     'phone' => $phone,
     'buyer_name' => $name,
     // 'redirect_url' => 'https://www.kritarth.org/payment/success.php',
-    'redirect_url' => 'https://kritarth.org/payment/success.php',
+    'redirect_url' => 'http://chimera.org.in/payment/success.php',
     'send_email' => true,
-    'webhook' => 'https://kritarth.org/payment/webhook.php',
+    'webhook' => 'http://chimera.org.in/payment/webhook.php',
     'send_sms' => true,
     'email' => $email,
     'allow_repeated_payments' => false,
