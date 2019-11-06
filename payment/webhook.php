@@ -30,6 +30,8 @@ else{
 }
 
 if($mac_provided == $mac_calculated){
+
+    echo "The mac matched;<br>***************";
     // Do something here
     if($data['status'] == "Credit"){
        //echo "The payment was successful.";

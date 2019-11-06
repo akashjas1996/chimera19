@@ -1,2 +1,5 @@
 
 .DS_Store
+inc/dbconnection.php
+inc/dbconnection_l.php
+inc/dbconnection_s.php
