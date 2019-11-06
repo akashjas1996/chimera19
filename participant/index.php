@@ -584,7 +584,7 @@ if(isset($_POST['participation_removal_pressed'])){
 													}
 													else{
 														$now = time(); // or your date as well
-														$your_date = strtotime("2019-10-19");
+														$your_date = strtotime("2019-11-16");
 
 														$datediff = $your_date - $now;
 														$diff_rounded = round($datediff / (60 * 60 * 24));
