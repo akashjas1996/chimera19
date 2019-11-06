@@ -653,8 +653,8 @@ if(isset($_POST['participation_removal_pressed'])){
 						<h1 style="color: #D06A54"> All Events </h1>
 
 						<br> <br>
-						<center><p>Events to be uploaded soon.</p></center>
-						<!-- <div class="container">
+						<!-- <center><p>Events to be uploaded soon.</p></center> -->
+						<div class="container">
 							<div class="row">
 								<div class="col-lg-12 col-sm-12 card_lg">
 									<div class="row">
@@ -692,7 +692,7 @@ if(isset($_POST['participation_removal_pressed'])){
 
 
 					</center>
-				</div> -->
+				</div>
 			</div>
 				
 			</main> <!-- .main-content -->
