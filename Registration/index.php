@@ -70,7 +70,7 @@ echo mysqli_error($link);
   		echo '}, 1000);
   		</script>';
   		// header( "refresh:2;url=../reg_mail.php?email=$email" );
-  		redirect('../reg_mail.php?email='.$email);
+  		// redirect('../reg_mail.php?email='.$email);
 		}
 	}
 	else{
