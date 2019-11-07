@@ -21,21 +21,21 @@ function redirect($url)
 }
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://test.instamojo.com/api/1.1/');
+curl_setopt($ch, CURLOPT_URL, 'https://www.instamojo.com/api/1.1/payment-requests/');
 curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:test_d73f7f56f5629d084e4e8aeb22b",
-                  "X-Auth-Token:test_2439f47e0e504d0f8b3be281e02"));
+            array("X-Api-Key:95f8aaec011f218da370a3cc478b1954",
+                  "X-Auth-Token:a6dc9e938dbd556dfd35cee2cfd7c9d5"));
 
 if(isset($_SESSION['k_id'])){
     $kid = $_SESSION['k_id'];
 $query_getinfo = "SELECT * FROM `khata` WHERE kritarth_id = '$kid'";
 $result_getinfo = mysqli_query($link, $query_getinfo);
 $row_getInfo = mysqli_fetch_assoc($result_getinfo);
-$mac = '4365551a42d547a08c698b341d835d53';
-$salt = '4365551a42d547a08c698b341d835d53';
+$mac = '588cf2c8de6845188eb43173d238c670';
+$salt = '588cf2c8de6845188eb43173d238c670';
 $id = $kid;
 $name = $row_getInfo['name'];
 $email = $row_getInfo['email'];
