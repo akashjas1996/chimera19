@@ -87,7 +87,7 @@ $curl = curl_init();
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://control.msg91.com/api/sendotp.php?template=hello&otp=".$otp."&otp_length=4&otp_expiry=10&sender=CHMRA&message=".$otp." is the mobile Verification code for Chimera. &mobile=".$mbl."&authkey=302677A7wYMfP8z5dc3ffa5",
+  CURLOPT_URL => "https://control.msg91.com/api/sendotp.php?template=hello&otp=".$otp."&otp_length=4&otp_expiry=10&sender=CHIMERA&message=".$otp." is the mobile Verification code for Chimera. &mobile=".$mbl."&authkey=302677A7wYMfP8z5dc3ffa5",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
