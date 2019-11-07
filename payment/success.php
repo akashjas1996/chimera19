@@ -2,7 +2,7 @@
 include '../inc/dbconnection.php';
 $ch = curl_init();
 $vars=$_GET['payment_request_id'];
-curl_setopt($ch, CURLOPT_URL, 'https://www.instamojo.com/api/1.1/payment-requests/'.$vars.'/');
+curl_setopt($ch, CURLOPT_URL, 'https://www.test.instamojo.com/api/1.1/payment-requests/'.$vars.'/');
 curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
