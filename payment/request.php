@@ -21,7 +21,7 @@ function redirect($url)
 }
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://www.test.instamojo.com/api/1.1/payment-requests/');
+curl_setopt($ch, CURLOPT_URL, 'https://test.instamojo.com/api/1.1/');
 curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
@@ -41,11 +41,7 @@ $name = $row_getInfo['name'];
 $email = $row_getInfo['email'];
 $phone = $row_getInfo['contact'];
 $amt = $row_getInfo['amt'];
-
-echo $name;
-echo $email;
-echo $phone;
-echo $amt;
+    
 // if($amt!=200 || $amt!=250){
 //     redirect("https://kritarth.org/payment/payment_problem.php");
 // }
