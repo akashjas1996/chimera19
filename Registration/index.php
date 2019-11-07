@@ -38,7 +38,7 @@ if(isset($_POST['register'])){
 			$otherinst = null;
 		}
 	$inst =  $_POST['inst_name'];
-	$fee_value = $_POST['fee_value'];
+	$fee_value = 200;
 	$contact = $_POST['cont'];
 
 	if($_POST['password1']==$_POST['password2']){
