@@ -57,7 +57,6 @@ $payload = Array(
     'email' => $email,
     'allow_repeated_payments' => false,
 );
-echo $payload;
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($payload));
 $response = curl_exec($ch);
