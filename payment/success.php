@@ -7,8 +7,8 @@ curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:95f8aaec011f218da370a3cc478b1954",
-                  "X-Auth-Token:a6dc9e938dbd556dfd35cee2cfd7c9d5"));
+            array("X-Api-Key:test_d73f7f56f5629d084e4e8aeb22b",
+                  "X-Auth-Token:test_d73f7f56f5629d084e4e8aeb22b"));
 $response = curl_exec($ch);
 
 $phpvar = json_decode($response);
