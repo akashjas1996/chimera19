@@ -143,9 +143,9 @@ if(isset($_POST['edit_event_info_button'])){
 						<div class="row">
 							<div class="col-lg-12">
 								<h2>Prize Money</h2>
-								1st Prize :&nbsp;&nbsp; <input name="f_prize" style="width: 80px" type="number" max="99999"  value="<?php echo $row_get_event_info['first_prize'] ?>"> <br>
-								2nd Prize : <input style="width: 80px" name="s_prize" type="number" max="99999"  value="<?php echo $row_get_event_info['second_prize'] ?>"> <br>
-								3rd Prize :&nbsp; <input style="width: 80px" name="t_prize" type="number" max="99999"  value="<?php echo $row_get_event_info['third_prize'] ?>"> <br>
+								<br>&nbsp;&nbsp; <input name="f_prize" style="width: 80px" type="number" max="99999"  value="<?php echo $row_get_event_info['first_prize'] ?>"> <br>
+								 <input style="display: none; width: 80px" name="s_prize" type="number" max="99999"  value="<?php echo $row_get_event_info['second_prize'] ?>"> <br>
+								&nbsp; <input style="display: none; width: 80px" name="t_prize" type="number" max="99999"  value="<?php echo $row_get_event_info['third_prize'] ?>"> <br>
 								
 								<h2>About</h2>
 								<textarea name="e_about"  style="width: 100%;height: 100px"> <?php echo $row_get_event_info['short_description'];?> </textarea>
