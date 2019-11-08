@@ -88,12 +88,9 @@ return $string;
 						</div>
 						<div class="row">
 							<div class="col-lg-12">
-								<h2>Prize Money</h2>
-								First Prize : <?php echo $row_abt_event['first_prize'] ?> <br>
-								Second Prize : <?php echo $row_abt_event['second_prize'] ?> <br>
-								<?php if($row_abt_event['third_prize']>0){
-									echo 'Third Prize :'.$row_abt_event['third_prize'];
-								} ?>
+								<h2>Prizes Worth</h2>
+								<?php echo $row_abt_event['first_prize'] ?> <br>
+								
 								<h2>About</h2>
 								<?php echo $row_abt_event['short_description'] ?>
 								<h2>Rules and Regulations </h2>
