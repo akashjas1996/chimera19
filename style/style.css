@@ -275,7 +275,7 @@ body {
 .button {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #761a7d;
+  background-color: #2288e3;
   border: none;
   color: white;
   text-decoration: none;
@@ -284,13 +284,13 @@ body {
           transition: .3s ease; }
   /* line 11, sass/libs/_component.scss */
   .button:hover {
-    background-color: #761a7d; }
+    background-color: #2288e3; }
   /* line 15, sass/libs/_component.scss */
   .button.primary {
-    background-color: #761a7d; }
+    background-color: #2288e3; }
     /* line 17, sass/libs/_component.scss */
     .button.primary:hover {
-      background-color:#761a7d; }
+      background-color:#2288e3; }
   /* line 21, sass/libs/_component.scss */
   .button.secondary {
     background-color: #848484;
@@ -303,21 +303,21 @@ body {
     padding: 5px 10px; }
   /* line 33, sass/libs/_component.scss */
   .button.cut-corner {
-    background: -webkit-linear-gradient(90deg,#761a7d, #761a7d) top left, -webkit-linear-gradient(90deg, #761a7d, #761a7d) top right, -webkit-linear-gradient(135deg, transparent 10px, #761a7d 0) bottom right, -webkit-linear-gradient(90deg,#761a7d, #761a7d) bottom left;
-    background: linear-gradient(0deg, #761a7d, #761a7d) top left, linear-gradient(0deg, #761a7d, #761a7d) top right, linear-gradient(315deg, transparent 10px, #761a7d 0) bottom right, linear-gradient(0deg, #761a7d, #761a7d) bottom left;
+    background: -webkit-linear-gradient(90deg,#2288e3, #2288e3) top left, -webkit-linear-gradient(90deg, #2288e3, #2288e3) top right, -webkit-linear-gradient(135deg, transparent 10px, #2288e3 0) bottom right, -webkit-linear-gradient(90deg,#2288e3, #2288e3) bottom left;
+    background: linear-gradient(0deg, #2288e3, #2288e3) top left, linear-gradient(0deg, #2288e3, #2288e3) top right, linear-gradient(315deg, transparent 10px, #2288e3 0) bottom right, linear-gradient(0deg, #2288e3, #2288e3) bottom left;
     background-size: 55% 55%;
     background-repeat: no-repeat; }
     /* line 41, sass/libs/_component.scss */
     .button.cut-corner:hover {
-      background: -webkit-linear-gradient(90deg, #b960bf, #b960bf) top left, -webkit-linear-gradient(90deg, #b960bf, #b960bf) top right, -webkit-linear-gradient(135deg, transparent 10px, #b960bf 0) bottom right, -webkit-linear-gradient(90deg, #b960bf, #b960bf) bottom left;
-      background: -webkit-linear-gradient(90deg, #b960bf, #b960bf) top left, -webkit-linear-gradient(90deg, #b960bf, #b960bf) top right, -webkit-linear-gradient(135deg, transparent 10px, #b960bf 0) bottom right, -webkit-linear-gradient(90deg, #b960bf, #b960bf) bottom left;
-      background: linear-gradient(0deg, #b960bf, #b960bf) top left, linear-gradient(0deg, #b960bf, #b960bf) top right, linear-gradient(315deg, transparent 10px, #b960bf 0) bottom right, linear-gradient(0deg, #b960bf, #b960bf) bottom left;
+      background: -webkit-linear-gradient(90deg, #2288e3, #2288e3) top left, -webkit-linear-gradient(90deg, #2288e3, #2288e3) top right, -webkit-linear-gradient(135deg, transparent 10px, #2288e3 0) bottom right, -webkit-linear-gradient(90deg, #2288e3, #2288e3) bottom left;
+      background: -webkit-linear-gradient(90deg, #2288e3, #2288e3) top left, -webkit-linear-gradient(90deg, #2288e3, #2288e3) top right, -webkit-linear-gradient(135deg, transparent 10px, #2288e3 0) bottom right, -webkit-linear-gradient(90deg, #2288e3, #2288e3) bottom left;
+      background: linear-gradient(0deg, #2288e3, #2288e3) top left, linear-gradient(0deg, #2288e3, #2288e3) top right, linear-gradient(315deg, transparent 10px, #2288e3 0) bottom right, linear-gradient(0deg, #2288e3, #2288e3) bottom left;
       background-size: 55% 55%;
       background-repeat: no-repeat; }
     /* line 50, sass/libs/_component.scss */
     .button.cut-corner:active {
-      background: -webkit-linear-gradient(90deg, #880691, #880691) top left, -webkit-linear-gradient(90deg, #880691, #880691) top right, -webkit-linear-gradient(135deg, transparent 10px, #880691 0) bottom right, -webkit-linear-gradient(90deg, #d63302, #d63302) bottom left;
-      background: linear-gradient(0deg, #880691, #880691) top left, linear-gradient(0deg, #880691, #880691) top right, linear-gradient(315deg, transparent 10px, #880691 0) bottom right, linear-gradient(0deg, #880691, #880691) bottom left;
+      background: -webkit-linear-gradient(90deg, #1676cc, #1676cc) top left, -webkit-linear-gradient(90deg, #1676cc, #1676cc) top right, -webkit-linear-gradient(135deg, transparent 10px, #1676cc 0) bottom right, -webkit-linear-gradient(90deg, #d63302, #d63302) bottom left;
+      background: linear-gradient(0deg, #1676cc, #1676cc) top left, linear-gradient(0deg, #1676cc, #1676cc) top right, linear-gradient(315deg, transparent 10px, #1676cc 0) bottom right, linear-gradient(0deg, #1676cc, #1676cc) bottom left;
       background-size: 55% 55%;
       background-repeat: no-repeat; }
 
@@ -1795,7 +1795,7 @@ body {
      }
     /* line 40, sass/layout/_header.scss */
     .main-navigation .toggle-menu:hover, .main-navigation .toggle-menu:active, .main-navigation .toggle-menu.active {
-      color: #880691; }
+      color: #1676cc; }
     @media screen and (max-width: 640px) {
       /* line 30, sass/layout/_header.scss */
       .main-navigation .toggle-menu {
@@ -1829,7 +1829,7 @@ body {
         opacity: 0;
         border-left: 4px solid transparent;
         border-right: 4px solid transparent;
-        border-bottom: 4px solid #880691;
+        border-bottom: 4px solid #1676cc;
         -webkit-transition: .3s ease;
                 transition: .3s ease; }
       /* line 75, sass/layout/_header.scss */
@@ -1840,7 +1840,7 @@ body {
         opacity: 1; }
       /* line 80, sass/layout/_header.scss */
       .main-navigation .menu .menu-item:hover a, .main-navigation .menu .menu-item.current-menu-item a {
-        color: #880691; }
+        color: #1676cc; }
     /* line 84, sass/layout/_header.scss */
     .main-navigation .menu a {
       display: block;
@@ -2135,7 +2135,7 @@ body {
 
 /* line 1, sass/layout/_footer.scss */
 .site-footer {
-  background: gray;
+  background: #2288e3;
   padding: 50px 0;
   text-align: center; }
   /* line 6, sass/layout/_footer.scss */

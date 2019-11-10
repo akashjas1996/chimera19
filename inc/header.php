@@ -7,10 +7,10 @@
 	</style>
 </head>
 
-<header class="site-header" style="background-color: #c89d46">
-				<div class="container" style="background-color: #c89d46">
+<header class="site-header" style="background-color: #5197d5">
+				<div class="container" style="background-color: #5197d5">
 					<a href="../" id="branding" >
-						<img width="120px" src="../images/chimera_white.png" alt="Site Title">
+						<img width="70px" src="../images/chimera_white.png" alt="Site Title">
 						<!-- <small class="site-description">Slogan goes here</small> -->
 					</a> <!-- #branding -->
 					
