@@ -1,5 +1,5 @@
-<footer class="site-footer" style="background-color: #c89d46">
-				<div class="container" style="background-color: #c89d46">
+<footer class="site-footer" style="background-color: #5197d5">
+				<div class="container" style="background-color: #5197d5">
 					<img width="150px" src="../images/chimera_white.png" alt="CHIMERA LOGO">
 					<address>
 						<p style="color: white"><br><a href="tel:354543543"></a> <br> <a href="mailto:info@bandname.com">chimerakiit@gmail.com</a></p> 
