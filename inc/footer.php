@@ -10,7 +10,7 @@
 						<input type="submit" class="button cut-corner" value="Register">
 					</form>
 					<div class="social-links">
-						<a target="_blank" href="https://www.facebook.com/pg/kritarth.kiit/about/?ref=page_internal"><i class="fa fa-facebook-square"></i></a>
+						<a target="_blank" href="https://www.facebook.com/chimerakiit"><i class="fa fa-facebook-square"></i></a>
 						<a target="_blank" href="https://www.instagram.com/chimera_kiit/"><i class="fa fa-instagram"></i></a>
 						<!-- <a href="#"><i class="fa fa-google-plus"></i></a>
 						<a href="#"><i class="fa fa-pinterest"></i></a> -->
