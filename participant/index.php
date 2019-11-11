@@ -377,12 +377,13 @@ if(isset($_POST['participation_removal_pressed'])){
 							<?php
 							if(isset($_SESSION['k_id'])){
 								//echo $_SESSION['k_id'];
-								redirect('../login/')
+								
 								echo "Welcome ";
 								echo $_SESSION['name'].' ! ';
 							}
 							else{
 							echo "Welcome Guest"; 
+							redirect('../login/');
 						}
 							?>
 
