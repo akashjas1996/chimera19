@@ -351,7 +351,7 @@ if(isset($_POST['participation_removal_pressed'])){
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
 		<link href="../fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<!-- Loading main css file -->
-		<link rel="stylesheet" href="../style/style.css">
+		<link rel="stylesheet" href="../style/style1.css">
 		<link rel="shortcut icon" href="../images/favicon.png">
 		
 		<!--[if lt IE 9]>
@@ -377,6 +377,7 @@ if(isset($_POST['participation_removal_pressed'])){
 							<?php
 							if(isset($_SESSION['k_id'])){
 								//echo $_SESSION['k_id'];
+								redirect('../login/')
 								echo "Welcome ";
 								echo $_SESSION['name'].' ! ';
 							}
