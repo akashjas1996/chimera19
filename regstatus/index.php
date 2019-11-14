@@ -247,10 +247,11 @@ table.blueTable tfoot .links a{
 							$row_kittians = mysqli_num_rows($res_kiitians);
 							?>
 							</h3><?php echo $row_kittians; ?></div>
-
+							</center>
 
 							<br><br>
 
+							<center>
 							<h1>NON - KIITINS</h1>
 							<?php
 							$count_others = "SELECT * FROM khata WHERE institute='Others';";
