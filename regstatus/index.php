@@ -249,7 +249,6 @@ table.blueTable tfoot .links a{
 							</h3><?php echo $row_kittians; ?></div>
 							</center>
 
-							<br><br>
 
 							<center>
 							<h1>NON - KIITINS</h1>
@@ -261,7 +260,6 @@ table.blueTable tfoot .links a{
 							</h3><?php echo $row_others; ?></div>
 						</center>
 
-							<br><br>
 
 							<?php 
 
