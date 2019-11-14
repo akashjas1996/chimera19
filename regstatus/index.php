@@ -238,6 +238,27 @@ table.blueTable tfoot .links a{
 							?>
 							</h3><?php echo $row_pass; ?></div>
 
+							<br><br>
+
+							<h1>KIITINS</h1>
+							<?php
+							$count_kiitians = "SELECT * FROM khata WHERE institute='KIIT'";
+							$res_kiitians = mysqli_query($link, $count_kiitians);
+							$row_kittians = mysqli_num_rows($res_kiitians);
+							?>
+							</h3><?php echo $row_kittians; ?></div>
+
+
+							<br><br>
+
+							<h1>NON - KIITINS</h1>
+							<?php
+							$count_others = "SELECT * FROM khata WHERE institute='Others';";
+							$res_others = mysqli_query($link, $count_others);
+							$row_others = mysqli_num_rows($res_others);
+							?>
+							</h3><?php echo $row_others; ?></div>
+
 
 							<br><br>
 
