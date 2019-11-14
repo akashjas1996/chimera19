@@ -239,7 +239,7 @@ table.blueTable tfoot .links a{
 							</h3><?php echo $row_pass; ?></div>
 
 							<br><br>
-
+							<center>
 							<h1>KIITINS</h1>
 							<?php
 							$count_kiitians = "SELECT * FROM khata WHERE institute='KIIT'";
@@ -258,7 +258,7 @@ table.blueTable tfoot .links a{
 							$row_others = mysqli_num_rows($res_others);
 							?>
 							</h3><?php echo $row_others; ?></div>
-
+						</center>
 
 							<br><br>
 
