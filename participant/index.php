@@ -413,6 +413,14 @@ if(isset($_POST['participation_removal_pressed'])){
 							<div class="row">
 								<div class="col-lg-12">
 									<?php
+
+
+									$count_all = "SELECT * FROM khata WHERE payment_status=1;";
+							$res_all = mysqli_query($link, $count_all);
+							$row_all = mysqli_num_rows($res_all);
+
+
+
 										$kritarth_id = $_SESSION['k_id'];
 										$query_contact_check = "SELECT * FROM khata WHERE kritarth_id='$kritarth_id'";
 										$res_contact_check =  mysqli_query($link, $query_contact_check);
@@ -422,10 +430,8 @@ if(isset($_POST['participation_removal_pressed'])){
 												echo '<img style="width:90px" src="../images/paid.png">';
 											}
 
-											$count_all = "SELECT * FROM khata WHERE payment_status=1;";
-							$res_all = mysqli_query($link, $count_all);
-							$row_all = mysqli_num_rows($res_all);
-							if($row_all>1048){
+							
+							else if($row_all>1048){
 								echo '<img style="width:90px" src="../images/soldout.png">';
 							}
 
