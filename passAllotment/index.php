@@ -246,7 +246,7 @@ table.blueTable tfoot .links a{
 									echo '<tr>';
 									echo '<td data-column="Sl">'.$count.'</td>';
 									$count=$count+1;
-									echo '<td data-column="Kritarth ID">KR'.$row_std_details['kritarth_id'].'</td>';
+									echo '<td data-column="Kritarth ID">CH'.$row_std_details['kritarth_id'].'</td>';
 									if($row_std_details['institute']=='KIIT'){
 										if($row_std_details['kiit_roll']>0){
 											echo '<td data-column="Roll">'.$row_std_details['kiit_roll'].'</td>';
