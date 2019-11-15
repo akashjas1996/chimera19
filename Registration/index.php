@@ -1,8 +1,7 @@
-<?php session_start() ?>
-
-<!DOCTYPE html>
-<?php
+<?php session_start() 
 include '../inc/dbconnection.php';
+
+
 function redirect($url)
 {
     if (!headers_sent())
@@ -20,6 +19,19 @@ function redirect($url)
         echo '</noscript>'; exit;
     }
 }
+							$count_all = "SELECT * FROM khata;";
+							$res_all = mysqli_query($link, $count_all);
+							$row_all = mysqli_num_rows($res_all);
+							if($row_all>1050){
+								redirect('../soldout/')
+							}
+
+?>
+
+<!DOCTYPE html>
+<?php
+
+
 if(isset($_POST['register'])){
 	$name = $_POST['name'];
 	$email =  $_POST['email'];

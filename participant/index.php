@@ -21,6 +21,10 @@ function redirect($url)
         echo '</noscript>'; exit;
     }
 }
+
+
+
+
 function nl2br2($string) {
 $string = str_replace(array("\r\n", "\r", "\n"), "</li><li>", $string);
 $string = substr($string,0,strlen($string)-2);
@@ -417,6 +421,15 @@ if(isset($_POST['participation_removal_pressed'])){
 											if($row['payment_status']==1){
 												echo '<img style="width:90px" src="../images/paid.png">';
 											}
+
+											$count_all = "SELECT * FROM khata WHERE payment_status=1;";
+							$res_all = mysqli_query($link, $count_all);
+							$row_all = mysqli_num_rows($res_all);
+							if($row_all>1050){
+								echo '<img style="width:90px" src="../images/soldout.png">';
+							}
+
+
 											else{
 												echo '
 												<br>
