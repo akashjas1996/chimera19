@@ -431,7 +431,7 @@ if(isset($_POST['participation_removal_pressed'])){
 											}
 
 							
-							else if($row_all>1050){
+							else if($row_all>1051){
 								echo '<img style="width:90px" src="../images/soldout.png">';
 							}
 
