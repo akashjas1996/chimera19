@@ -22,8 +22,8 @@ function redirect($url)
 							$count_all = "SELECT * FROM khata;";
 							$res_all = mysqli_query($link, $count_all);
 							$row_all = mysqli_num_rows($res_all);
-							if($row_all>1050){
-								redirect('../soldout/')
+							if($row_all>1000){
+								redirect('../soldout/');
 							}
 
 ?>

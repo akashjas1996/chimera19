@@ -425,7 +425,7 @@ if(isset($_POST['participation_removal_pressed'])){
 											$count_all = "SELECT * FROM khata WHERE payment_status=1;";
 							$res_all = mysqli_query($link, $count_all);
 							$row_all = mysqli_num_rows($res_all);
-							if($row_all>1050){
+							if($row_all>1048){
 								echo '<img style="width:90px" src="../images/soldout.png">';
 							}
 
