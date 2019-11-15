@@ -191,7 +191,7 @@ table.blueTable tfoot .links a{
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css">
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-		<title> Registrations| Kritarth.org</title>
+		<title> Registrations| Chimera.org.in</title>
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
 		<link href="../fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -226,9 +226,10 @@ table.blueTable tfoot .links a{
 								<thead>
 								<tr>
 								<th>Sl.</th>
-								<th>Kritarth ID </th>
+								<th>Chimera ID </th>
 								<th>Roll No</th>
 								<th>Name</th>
+								<th>College</th>
 								<th>Email</th>
 								<th>Phone</th>
 								<th>Payment Status</th>
@@ -258,6 +259,7 @@ table.blueTable tfoot .links a{
 										echo '<td><p>Other Institute</p></td>';
 									}
 									echo '<td data-column="Name" >'.$row_std_details['name'].'</td>';
+									echo '<td data-column="Name" >'.$row_std_details['institute'].'</td>';
 									echo '<td data-column="email" >'.$row_std_details['email'].'</td>';
 									echo '<td data-column="Phone">'.$row_std_details['contact'].'</td>';
 									if($row_std_details['payment_status']==1){
