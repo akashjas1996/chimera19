@@ -19,12 +19,12 @@ function redirect($url)
         echo '</noscript>'; exit;
     }
 }
-							$count_all = "SELECT * FROM khata;";
-							$res_all = mysqli_query($link, $count_all);
-							$row_all = mysqli_num_rows($res_all);
-							if($row_all>1000){
-								redirect('../soldout/');
-							}
+							// $count_all = "SELECT * FROM khata;";
+							// $res_all = mysqli_query($link, $count_all);
+							// $row_all = mysqli_num_rows($res_all);
+							// if($row_all>1000){
+							// 	redirect('../soldout/');
+							// }
 
 ?>
 
