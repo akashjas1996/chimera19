@@ -1,5 +1,6 @@
 <?php
 include '../inc/dbconnection.php';
+header('Content-Type:text/plain');
 
 	// if (!(isset($_POST["kid"])&&isset($_POST["username"])&&isset($_POST["password"]))) {
 	// 	echo "Some error occurred";
