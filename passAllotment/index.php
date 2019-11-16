@@ -297,7 +297,7 @@ table.blueTable tfoot .links a{
 									</td>
 
 
-									<td data-column="Attendance" > <select onchange="mark_attendance(<?php echo $row_std_details['kritarth_id'] ?>, this)">
+									<td data-column="Attendance" > <select onchange="mark_star(<?php echo $row_std_details['kritarth_id'] ?>, this)">
 									<option disabled selected="selected" >
 										<?php
 										$kid = $row_std_details['kritarth_id'];
@@ -307,7 +307,7 @@ table.blueTable tfoot .links a{
 											if($row_check_att['payment_status']==0){
 												echo "NOT PAID";
 											}
-											else if($row_check_att['pass']==0){
+											else if($row_check_att['star_night']==0){
 												echo "WAITING";
 												echo '
 												</option>
@@ -323,7 +323,7 @@ table.blueTable tfoot .links a{
 										?>
 									</td>
 
-									
+
 									<?php echo '</tr>';
 								}
 								?>
@@ -368,6 +368,24 @@ table.blueTable tfoot .links a{
                 console.log(ob.value);
                 $.ajax({
                     url: "fetch_pass.php",
+                    method: "POST",
+                    data: {
+                        kid: kid,
+                        status:ob.value,
+                    },
+                    success: function(data) {
+                      //  $('#result').html(data);
+                    }
+                });
+            }
+
+            function mark_star(kid,ob) {
+               // alert(status);
+                //alert(empid)
+                console.log(kid);
+                console.log(ob.value);
+                $.ajax({
+                    url: "fetch_star.php",
                     method: "POST",
                     data: {
                         kid: kid,
