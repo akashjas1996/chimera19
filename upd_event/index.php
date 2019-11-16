@@ -8,8 +8,12 @@ include '../inc/dbconnection.php';
 	$kid=$_POST["kid"];
 	$username=$_POST["username"];
 	$password=$_POST["password"];
+
+
+	//TODO add include for db link
 	$conn=$link;
-	echo $admin_query;
+	$admin_query = "SELECT * FROM khata WHERE email='$username' AND password='$password' AND role=2";//TODO query to verify admin user and password combination
+
 	$result=mysqli_query($conn,$admin_query);
 	if(mysqli_num_rows($result) == 1){
 		if($kid== -1){
