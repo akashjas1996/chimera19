@@ -5,9 +5,9 @@ include '../inc/dbconnection.php';
 	// 	echo "Some error occurred";
 	// 	exit();
 	// }
-	$kid=$_POST["kid"];
-	$username=$_POST["username"];
-	$password=$_POST["password"];
+	$kid=$_GET["kid"];
+	$username=$_GET["username"];
+	$password=$_GET["password"];
 
 
 	//TODO add include for db link
