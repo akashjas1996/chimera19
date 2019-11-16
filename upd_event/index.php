@@ -5,14 +5,10 @@ include '../inc/dbconnection.php';
 	// 	echo "Some error occurred";
 	// 	exit();
 	// }
-	$kid=$_GET["kid"];
-	$username=$_GET["username"];
-	$password=$_GET["password"];
-
-
-	//TODO add include for db link
+	$kid=$_POST["kid"];
+	$username=$_POST["username"];
+	$password=$_POST["password"];
 	$conn=$link;
-	$admin_query = "SELECT * FROM khata WHERE email='$username' AND password='$password' AND role=2";//TODO query to verify admin user and password combination
 	echo $admin_query;
 	$result=mysqli_query($conn,$admin_query);
 	if(mysqli_num_rows($result) == 1){
