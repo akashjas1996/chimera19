@@ -311,13 +311,13 @@ table.blueTable tfoot .links a{
 												echo "WAITING";
 												echo '
 												</option>
-										<option>ALLOTED</option>
+										<option>GIVEN</option>
 										<option>WAITING</option>
 									</select>
 									';
 											}
 											else{
-												echo "ALLOTED";
+												echo "GIVEN";
 											}
 											
 										?>
