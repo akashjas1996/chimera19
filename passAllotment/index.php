@@ -323,7 +323,7 @@ table.blueTable tfoot .links a{
 										?>
 									</td>
 
-
+									
 									<?php echo '</tr>';
 								}
 								?>
@@ -379,6 +379,7 @@ table.blueTable tfoot .links a{
                 });
             }
 
+
             function mark_star(kid,ob) {
                // alert(status);
                 //alert(empid)
@@ -396,7 +397,6 @@ table.blueTable tfoot .links a{
                     }
                 });
             }
-
 
 		</script>
 	</body>
