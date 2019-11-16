@@ -431,28 +431,26 @@ if(isset($_POST['participation_removal_pressed'])){
 											}
 
 							
-							else if($row_all>1053){
-								echo '<img style="width:90px" src="../images/soldout.png">';
-							}
-							else{
-								echo '<img style="width:90px" src="../images/soldout.png">';
-							}
+							// else if($row_all>1053){
+							// 	echo '<img style="width:90px" src="../images/soldout.png">';
+							// }
+						
 
+											// else{
+											// 	echo '
+											// 	<br>
+											// <a href="../payment/request.php">
+											// <button class="payment_btn">Pay Now</button>
+											// </a>
+											// ';
+												else{
+													echo '<img style="width:10%" src="../images/soldout.png">';
+												}
+												
 
-										// 	// else{
-										// 	// 	echo '
-										// 	// 	<br>
-										// 	// <a href="../payment/request.php">
-										// 	// <button class="payment_btn">Pay Now</button>
-										// 	// </a>
-										// 	// ';
-
-										// 		// echo '<img style="width:10%" src="../images/soldout.png">';
-
-										// 		// echo "Payment will be started soon. Stay Tuned.";
-										// 	}
+												// echo "Payment will be started soon. Stay Tuned.";
 											
-										// }
+										}
 										else{ 
 											?> <br>
 						<div class="container warning-block">
