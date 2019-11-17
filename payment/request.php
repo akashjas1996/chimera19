@@ -42,15 +42,12 @@ $email = $row_getInfo['email'];
 $phone = $row_getInfo['contact'];
 $amt = $row_getInfo['amt'];
     
-// if($amt!=200 || $amt!=250){
-//     redirect("https://kritarth.org/payment/payment_problem.php");
-// }
+
 $payload = Array(
     'purpose' => 'Chimera19-'.$kid,
     'amount' => $amt,
     'phone' => $phone,
     'buyer_name' => $name,
-    // 'redirect_url' => 'https://www.kritarth.org/payment/success.php',
     'redirect_url' => 'http://chimera.org.in/payment/success.php',
     'send_email' => true,
     'webhook' => 'http://chimera.org.in/payment/webhook.php',

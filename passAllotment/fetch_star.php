@@ -3,7 +3,7 @@ include '../inc/dbconnection.php';
 if(isset($_POST['kid'])){
     $k_id = $_POST['kid'];
     $status = $_POST['status'];
-    if($_POST['status']=='ALLOTED'){
+    if($_POST['status']=='GIVEN'){
         $q1 = "UPDATE khata SET star_night=1 WHERE kritarth_id='$k_id'";
         //echo '<script> console.log("ABSENT PRESSED"); </script>';
     }
